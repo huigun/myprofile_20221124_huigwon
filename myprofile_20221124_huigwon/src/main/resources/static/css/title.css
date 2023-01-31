@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+#wrapper {
+  height : auto;
+  min-height: 100%;
+  padding-bottom: 54px;
+}
+
+footer {
+	height: 0px;
+	position : relative;
+    transform : translateY(-100%);
+}
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	display: flex;
+	flex-direction:column;
+}
+
+main {
+	flex: 1;	
+}
+
+
+span.title01 {
+	font-size:70px;
+	color:#FFB9B9;
+	font-family: Arial;
+	font-weight:bold;
+}
+
+span.title02 {
+	font-size:30px;
+	color:gray;
+	font-family: Arial;
+	font-weight:bold;
+}
+
+span.title03 {
+	font-size:40px;
+	color:#159515;
+	font-family: Arial;
+	font-weight:bold;
+}
+
+span.title04 {
+	font-size:20px;
+	color:#5d5d5d;
+}
+
+td.titletd01 {
+	background-color:#d0ffd0;
+}
+
+td.titletd02 {
+	background-color:#d9ffff;
+	text-align: center;
+}
+
+td.titlebox {
+	text-align: center;	
+}
+
+a.a2{
+	color: #008080;
+	text-decoration:none;
+}
+a.a2:visited { /*링크를 방문한 이후*/
+    color: #008080;
+    text-decoration:none;
+}
+
+a.a2:hover { /*마우스를 올려놓을 때*/
+    color: #4f4fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+ 
+a.a2:active { /*클릭하는 순간*/
+    color: #008080;
+    text-decoration:none;
+}

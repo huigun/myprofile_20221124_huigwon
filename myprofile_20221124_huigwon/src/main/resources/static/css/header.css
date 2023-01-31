@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+	margin:0;
+	padding:0;
+}
+tr.headline01 {
+	height:50px;
+	background-color:#d0ffd0;
+}
+
+tr.headline02 {
+	height:50px;	
+}
+
+td.menu01 {
+	padding:5px;
+	font-size:20px;
+	color: skyblue;
+	font-family: Arial;
+	text-align: center;
+}
+
+td.menu02 {
+	padding:5px;
+	font-size:15px;
+	color: #0c3243;
+	font-family: Arial;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.a1{
+	color: gray;
+	text-decoration:none;
+}
+a.a1:visited { /*링크를 방문한 이후*/
+    color: gray;
+    text-decoration:none;
+}
+
+a.a1:hover { /*마우스를 올려놓을 때*/
+    color: pink;
+    text-decoration:none;
+}
+ 
+a.a1:active { /*클릭하는 순간*/
+    color: gray;
+    text-decoration:none;
+}
